@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     i18n: {
+        localeDetection: false,
       // These are all the locales you want to support in
       // your application
       locales: ['fa', 'ru', 'fr'],
