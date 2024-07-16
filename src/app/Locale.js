@@ -5,6 +5,7 @@ import React from 'react'
 export default function Locale() {
     const router = useRouter();
     const { locale } = router;  // Access the locale from the router
+    console.log(router, locale)
 
     return (
         <div>
